@@ -1,4 +1,32 @@
 ---
 label: Hero Section
 hide_body: true
-fields: []
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: sub_heading
+  type: text
+  config:
+    required: false
+  label: Sub Heading
+- name: buttons
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Buttons
