@@ -6,3 +6,10 @@ hero_image: "/uploads/cta_purple-2x.png"
 author: Jaren
 
 ---
+## This is an h2
+
+This is the content body
+
+* List items
+* are fun
+* things to use
