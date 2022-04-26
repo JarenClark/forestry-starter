@@ -31,3 +31,5 @@ fields:
   config:
     required: false
   label: Author
+pages:
+- posts/post-title.md
